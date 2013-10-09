@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0/css/bootstrap.min.css">
+ 	<link rel="stylesheet" type="text/css" href="css/main.css">
+  <title>Hello!</title>
+</head>
+<body>
+
+ <table class="table table-striped table-condensed">
+ 	<thead><tr>
+ 	    <td>#</td>
+ 		<td>UserName</td>
+ 		<td>FullName</td>
+ 		<td>Region</td>
+ 		<td>Race</td>
+ 		<td>Wins</td>
+ 		<td>Losses</td>
+ 	</tr></thead>
+ 	<tbody id="table-body">
+ 		
+ 	</tbody>
+
+ </table>
+ <div class="pagination-div">
+	<ul class="pagination">
+		<li><a class="page" href="#">&laquo;</a></li>
+		<li><a class="page" href="#">1</a></li>
+		<li><a class="page" href="#">2</a></li>
+		<li><a class="page" href="#">3</a></li>
+		
+		<li><a class="page" href="#">&raquo;</a></li>
+	</ul>
+</div>
+
+<div class="btn-group">
+  <h3>Group By </h3>
+  <button class="btn btn-race">Race</button>
+  <button class=" btn btn-region">Region</button>
+  <button class="btn">Som</button>
+
+</div>
+<div class="input-div">
+  <form name="input" action="" method="get">
+Input: <input type="text" class="input" placeholder="Enter the value">
+<input type="button"  class="enter-btn"value="Enter">
+</form>
+</div>
+
+
+
+</div>
+
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="js/utility.js"></script>
+<script src="js/main.js"></script>
+<script src="js/starcraft-data.js"></script>
+<script src="js/underscore.js"></script>
+<script src="js/useless.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+.table{
+	width:50%;
+	margin:2% 0 0 10%;
+}
+.pagination-div{
+	margin-left:10%;
+
+}
+.btn-group{
+	position:absolute;
+	top:10%;
+	right:10%;
+}
+.enter-text{
+	display:hidden;
+}
+.input-div{
+	position:absolute;
+	top:30%;
+	right:10%;
+	display:none;
+}
